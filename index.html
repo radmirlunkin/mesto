@@ -1,0 +1,108 @@
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mesto</title>
+
+    <link rel="stylesheet" href="./pages/index.css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="page">
+
+    <header class="header">
+        <img src="./images/Mesto.png" class="header__logo" alt="Mesto">
+
+    </header>
+    <main class="main">
+
+        <section class="profile">
+            <img src="./images/image.jpg" class="profile__avatar">
+            <div class="profile__info">
+                <h1 class="profile__text_name">Жак-Ив Кусто</h1>
+                <p class="profile__text_job">Исследователь океана</p>
+                <button type="button" class="profile__edit-button"></button>
+            </div>
+            <button type="button" class="profile__add_button"></button>
+        </section>
+        <section class="elements">
+            <div class="element">
+                <img class="elements__image" src="./images/kirill-pershin-1088404-unsplash.jpg">
+                <div class="group">
+                    <p class="elements__paragraph">Карачаевск</p>
+                    <button type="button" class="element__like"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="elements__image" src="./images/elbrus.png">
+                <div class="group">
+                    <p class="elements__paragraph">Гора Эльбрус</p>
+                    <button type="button" class="element__like"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="elements__image" src="./images/dombay.png">
+                <div class="group">
+                    <p class="elements__paragraph">Домбай</p>
+                    <button type="button" class="element__like"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="elements__image" src="./images/Pyatigorsk.jpg">
+                <div class="group">
+                    <p class="elements__paragraph">Пятигорск</p>
+                    <button type="button" class="element__like"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="elements__image" src="./images/Essentuki.jpg">
+                <div class="group">
+                    <p class="elements__paragraph">Ессентуки</p>
+                    <button type="button" class="element__like"></button>
+                </div>
+            </div>
+            <div class="element">
+                <img class="elements__image" src="./images/Min-vody.jpg">
+                <div class="group">
+                    <p class="elements__paragraph">Мин-Воды</p>
+                    <button type="button" class="element__like"></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copyright">© 2023 Mesto Russia</p>
+    </footer>
+
+
+
+
+    <div class="pop-up">
+
+        <div class="pop-up__content">
+            <button type="button" class="pop-up__button_close"></button>
+            <h2 class="pop-up__text">Редактировать профиль</h2>
+            <form class="pop-up__form">
+                <label>
+                    <input placeholder="Имя"
+                           class="pop-up__field_name">
+                </label>
+                <label>
+
+                    <input placeholder="Работа"
+                           class="pop-up__field_job">
+                </label>
+
+                <button type="submit" value="save" class="pop-up__button_save">
+                    Сохранить
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
