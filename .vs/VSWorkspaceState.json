@@ -3,8 +3,14 @@
     "",
     "\\blocks",
     "\\blocks\\elements",
-    "\\Pages"
+    "\\blocks\\footer",
+    "\\blocks\\header",
+    "\\blocks\\main",
+    "\\blocks\\popup",
+    "\\blocks\\popup\\__content",
+    "\\blocks\\profile\\__add-button",
+    "\\blocks\\profile\\__avatar"
   ],
-  "SelectedNode": "\\script.js",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

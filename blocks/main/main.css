@@ -4,7 +4,11 @@ padding: 0;
 margin: 0 auto;
 }
 
-
+@media screen and (max-width: 1023px) {
+    .main {
+        width: 581px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .main {

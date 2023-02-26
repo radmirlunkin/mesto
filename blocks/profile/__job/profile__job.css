@@ -1,4 +1,4 @@
-.profile__text_job {
+.profile__job {
     padding: 0;
     margin: 0;
     text-overflow: ellipsis;
@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 767px){
-    .profile__text_job {
+    .profile__job {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -25,5 +25,10 @@
         text-align: center;
        
         padding-bottom: 36px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .profile__job {
+        max-width: 215px;
     }
 }

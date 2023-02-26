@@ -8,6 +8,7 @@
     border-color: #545454;
     border-width: 1px;
 }
+
 @media screen and (max-width: 767px) {
     .header{
         max-width: 320px;

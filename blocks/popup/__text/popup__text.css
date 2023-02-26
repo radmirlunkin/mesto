@@ -1,4 +1,4 @@
-.pop-up__text {
+.popup__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -10,7 +10,7 @@
     margin: 0;
 }
 @media screen and (max-width: 767px){
-    .pop-up__text {
+    .popup__text {
         padding: 25px 22px 0px 22px;
         font-weight: 900;
         font-size: 18px;

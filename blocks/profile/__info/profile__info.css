@@ -7,10 +7,14 @@
     column-gap: 18px;
     align-items: baseline;
 }
-@media screen and (max-width: 767px) {
-    .profile__info
 
-{
-    column-gap: 10px
 }
+@media screen and (max-width: 1023px) {
+    .profile__info {
+        column-gap: 12px;
+    }
 }
+@media screen and (max-width: 767px) {
+    .profile__info {
+        column-gap: 10px;
+    }

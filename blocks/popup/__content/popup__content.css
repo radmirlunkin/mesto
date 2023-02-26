@@ -1,4 +1,4 @@
-.pop-up__content {
+.popup__content {
    background-color: #fff;
     width: 430px;
     height: 330px;
@@ -7,7 +7,7 @@
     border-radius: 10px;
 }
 @media screen and (max-width: 767px){
-    .pop-up__content{
+    .popup__content{
         max-width: 282px;
         max-height: 322px;
     }
