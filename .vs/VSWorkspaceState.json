@@ -1,14 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\blocks",
-    "\\blocks\\elements",
-    "\\blocks\\profile",
-    "\\blocks\\profile\\__content",
-    "\\blocks\\profile\\__edit-button",
-    "\\blocks\\profile\\__info",
-    "\\blocks\\profile\\__name"
+    "\\pages",
+    "\\vendor",
+    "\\vendor\\fonts"
   ],
-  "SelectedNode": "\\blocks\\profile\\__info\\profile__info.css",
   "PreviewInSolutionExplorer": false
 }

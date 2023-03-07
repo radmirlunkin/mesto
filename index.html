@@ -7,12 +7,12 @@
 </head>
 <body class="page">
     <header class="header">
-        <img src="./images/Mesto.png" class="header__logo" alt="Место">
+        <img src="./images/Mesto.svg" class="header__logo" alt="Место">
     </header>
     <main class="main">
 
         <section class="profile">
-            <img src="./images/image.jpg" class="profile__avatar">
+            <img src="./images/image.svg" class="profile__avatar">
             <div class="profile__info">
                 <div class="profile__content">
                     <h1 class="profile__name">Жак-Ив Кусто</h1>
@@ -24,44 +24,44 @@
         </section>
         <section class="elements">
             <div class="element">
-                <img class="elements__image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск">
+                <img class="element__image" src="./images/Karachaevsk.svg" alt="Карачаевск">
                 <div class="group">
-                    <p class="elements__paragraph">Карачаевск</p>
+                    <h2 class="element__paragraph">Карачаевск</h2>
                     <button type="button" class="element__like"></button>
                 </div>
             </div>
             <div class="element">
-                <img class="elements__image" src="./images/elbrus.png" alt="Гора Эльбрус">
+                <img class="element__image" src="./images/Elbrus.svg" alt="Гора Эльбрус">
                 <div class="group">
-                    <p class="elements__paragraph">Гора Эльбрус</p>
+                    <h2 class="element__paragraph">Гора Эльбрус</h2>
                     <button type="button" class="element__like"></button>
                 </div>
             </div>
             <div class="element">
-                <img class="elements__image" src="./images/dombay.png" alt="Село Домбай">
+                <img class="element__image" src="./images/Dombay.svg" alt="Село Домбай">
                 <div class="group">
-                    <p class="elements__paragraph">Домбай</p>
+                    <h2 class="element__paragraph">Домбай</h2>
                     <button type="button" class="element__like"></button>
                 </div>
             </div>
             <div class="element">
-                <img class="elements__image" src="./images/Pyatigorsk.jpg" alt="Город Пятигорск">
+                <img class="element__image" src="./images/Dombay.svg" alt="Город Пятигорск">
                 <div class="group">
-                    <p class="elements__paragraph">Пятигорск</p>
+                    <h2 class="element__paragraph">Домбай</h2>
                     <button type="button" class="element__like"></button>
                 </div>
             </div>
             <div class="element">
-                <img class="elements__image" src="./images/Essentuki.jpg" alt="Город Ессентуки">
+                <img class="element__image" src="./images/Elbrus.svg" alt="Город Ессентуки">
                 <div class="group">
-                    <p class="elements__paragraph">Ессентуки</p>
+                    <h2 class="element__paragraph">Гора Эльбрус</h2>
                     <button type="button" class="element__like"></button>
                 </div>
             </div>
             <div class="element">
-                <img class="elements__image" src="./images/Min-vody.jpg" alt="Город Минеральные Воды">
+                <img class="elements__image" src="./images/Karachaevsk.svg" alt="Город Минеральные Воды">
                 <div class="group">
-                    <p class="elements__paragraph">Мин-Воды</p>
+                    <h2 class="element__paragraph">Карачаево-Черкессия</h2>
                     <button type="button" class="element__like"></button>
                 </div>
             </div>
@@ -70,25 +70,23 @@
     <footer class="footer">
         <p class="footer__copyright">© 2023 Mesto Russia</p>
     </footer>
-    <div class="popup">
-        <div class="popup__content">
+    <section class="popup popup__opened">
+        
+        <div class="popup__container">
             <button type="button" class="popup__close-button"></button>
             <h2 class="popup__text">Редактировать профиль</h2>
             <form class="popup__form">
-                <label>
                     <input placeholder="Имя"
                            class="popup__input-name">
-                </label>
-                <label>
                     <input placeholder="Работа"
                            class="popup__input-job">
-                </label>
                 <button type="submit" value="save" class="popup__save-button">
                     Сохранить
                 </button>
             </form>
         </div>
-    </div>
-    <script src="script.js"></script>
+   
+        </section>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>

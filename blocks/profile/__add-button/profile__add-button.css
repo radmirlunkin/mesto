@@ -9,12 +9,11 @@
     opacity: 1;
     align-self: center;
     cursor: pointer;
-   
+    margin-bottom: 9px;
     justify-self: flex-end;
     margin-left: auto;
-   height: 50px;
-   width: 150px;
-
+    height: 50px;
+    width: 150px;
 }
 .profile__add-button:hover{
     opacity: 0.6;
@@ -23,7 +22,7 @@
     .profile__add-button {
         margin: 0;
         width: 282px;
-        background: transparent url(../../../images/plus.png) center no-repeat;
+        background: transparent url(../../../images/Plus.svg) center no-repeat;
         border: 2px solid #FFFFFF;
     }
 }

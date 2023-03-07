@@ -14,6 +14,7 @@
     opacity: 1;
     transition: .2s ease-out;
     margin-top: 24px;
+    
 }
 .profile__edit-button:hover{
     opacity: 0.6;

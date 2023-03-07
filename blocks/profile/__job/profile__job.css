@@ -17,13 +17,10 @@
 
 @media screen and (max-width: 767px){
     .profile__job {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
+        font-family: 'Inter', ‘Arial’, sans-serif;
         font-size: 14px;
         line-height: 17px;
         text-align: center;
-       
         padding-bottom: 36px;
     }
 }

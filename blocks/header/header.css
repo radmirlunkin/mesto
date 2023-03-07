@@ -3,10 +3,10 @@
     max-height: 74px;
     margin: 0 auto;
     padding-top: 45px;
-  
     border-bottom: solid;
     border-color: #545454;
     border-width: 1px;
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 767px) {
