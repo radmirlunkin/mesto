@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\pages",
+    "\\blocks",
+    "\\blocks\\popup\\__input-name",
+    "\\blocks\\popup\\__save-button",
+    "\\blocks\\popup\\__text",
+    "\\blocks\\profile\\__job",
+    "\\images",
+    "\\scripts",
     "\\vendor",
     "\\vendor\\fonts"
   ],
