@@ -1,7 +1,7 @@
 let main = document.querySelector('.main')
 let ProfileEditButton = document.querySelector('.profile__edit-button')
 
-let PopUpOpened = document.querySelector('.popup__opened')
+let PopUpOpened = document.querySelector('.popup_opened')
 let PopUpButtonClose = document.querySelector('.popup__close-button')
 let PopUpFieldName = document.querySelector('.popup__input-name')
 let PopUpFieldJob = document.querySelector('.popup__input-job')
