@@ -1,4 +1,4 @@
-.popup__input_job {
+.popup__input_type_job {
     border: none;
     outline: none;
     width: 358px;
@@ -11,7 +11,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 767px) {
-    .popup__input_job {
+    .popup__input_type_job {
         max-width: 238px;
         max-height: 27px;
         padding-top: 43px;
