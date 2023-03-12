@@ -1,20 +1,19 @@
-.popup__input-job {
+.popup__input_name {
     border: none;
+    padding-bottom: 17px;
+    padding-top: 54px;
     outline: none;
     width: 358px;
     height: 14px;
-    border-bottom: 1px solid gray;
-    padding-bottom: 17px;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    padding-top: 43px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-@media screen and (max-width: 767px) {
-    .popup__input-job {
+@media screen and (max-width: 767px){
+    .popup__input_name {
         max-width: 238px;
         max-height: 27px;
-        padding-top: 43px;
+        padding-top: 75px;
     }
 }
