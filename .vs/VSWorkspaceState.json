@@ -3,13 +3,14 @@
     "",
     "\\blocks",
     "\\blocks\\element\\__container",
-    "\\blocks\\popup\\__input-job",
-    "\\blocks\\popup\\__input-name",
+    "\\blocks\\header",
+    "\\blocks\\popup",
+    "\\blocks\\popup\\__input",
+    "\\blocks\\popup\\__input\\__input_type_job",
+    "\\blocks\\popup\\__input\\__input_type_name",
     "\\blocks\\popup\\__text",
-    "\\blocks\\profile\\__info",
-    "\\blocks\\profile\\__job",
-    "\\blocks\\profile\\__name",
-    "\\pages"
+    "\\images"
   ],
+  "SelectedNode": "\\blocks\\popup\\__input\\__input_type_name\\popup__input_type_name.css",
   "PreviewInSolutionExplorer": false
 }

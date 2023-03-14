@@ -23,6 +23,7 @@
         margin: 0;
         width: 282px;
         background: transparent url(../../../images/Plus.svg) center no-repeat;
+        background-size: 16px;
         border: 2px solid #FFFFFF;
     }
 }

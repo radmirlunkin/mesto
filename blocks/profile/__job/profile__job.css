@@ -6,14 +6,14 @@
     overflow: hidden;
     max-width: 336px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     width: 100%;
     line-height: 22px;
     grid-area: discr;
     color: white;
     transition: .7s ease;
-    font-family: 'Inter', ‘Arial’, sans-serif;
+    font-family: 'Inter',Arial,Helvetica,sans-serif;
 }
 
 @media screen and (max-width: 767px){
