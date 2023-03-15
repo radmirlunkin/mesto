@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\blocks",
-    "\\blocks\\element\\__container",
-    "\\blocks\\header",
-    "\\blocks\\popup",
+    "\\blocks\\footer\\__copyright",
     "\\blocks\\popup\\__input",
-    "\\blocks\\popup\\__input\\__input_type_job",
-    "\\blocks\\popup\\__input\\__input_type_name",
+    "\\blocks\\popup\\__save-button",
     "\\blocks\\popup\\__text",
-    "\\images"
+    "\\blocks\\profile",
+    "\\blocks\\profile\\__add-button",
+    "\\blocks\\profile\\__job",
+    "\\vendor\\fonts"
   ],
-  "SelectedNode": "\\blocks\\popup\\__input\\__input_type_name\\popup__input_type_name.css",
+  "SelectedNode": "\\blocks\\profile\\__add-button\\profile__add-button.css",
   "PreviewInSolutionExplorer": false
 }
