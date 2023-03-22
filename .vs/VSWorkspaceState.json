@@ -2,15 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\blocks",
-    "\\blocks\\footer\\__copyright",
+    "\\blocks\\popup",
     "\\blocks\\popup\\__input",
-    "\\blocks\\popup\\__save-button",
     "\\blocks\\popup\\__text",
-    "\\blocks\\profile",
-    "\\blocks\\profile\\__add-button",
-    "\\blocks\\profile\\__job",
+    "\\vendor",
     "\\vendor\\fonts"
   ],
-  "SelectedNode": "\\blocks\\profile\\__add-button\\profile__add-button.css",
+  "SelectedNode": "\\blocks\\popup\\__text\\popup__text.css",
   "PreviewInSolutionExplorer": false
 }
