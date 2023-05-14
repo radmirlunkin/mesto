@@ -12,7 +12,7 @@
     transition: opacity linear 1s;
   
 }
-}
+
 
 .popup__close:hover {
     opacity: 0.6;
