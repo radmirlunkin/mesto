@@ -1,17 +1,5 @@
-.main{
-max-width: 880px;
-padding: 0;
-margin: 0 auto;
-}
-
-@media screen and (max-width: 1023px) {
-    .main {
-        width: 581px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .main {
-        width: 282px;
-    }
+.main {
+    margin: 0 auto;
+    max-width: 880px;
+    padding-top: 40px;
 }

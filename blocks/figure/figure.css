@@ -1,0 +1,15 @@
+.figure {
+    margin: 0;
+    position: inherit;
+    animation: show 2s;
+}
+@keyframes show {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

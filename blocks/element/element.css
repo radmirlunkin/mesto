@@ -1,15 +1,11 @@
 .element {
-    margin: 0 auto;
     width: 282px;
-    background-color: #fff;
     border-radius: 10px;
-    overflow: hidden;
-    max-height: 361px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
-
-}
-@media screen and (max-width: 767px) {
-    .element {
-        min-height: 361px;
-    }
 }
